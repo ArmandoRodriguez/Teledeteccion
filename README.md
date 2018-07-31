@@ -1,4 +1,4 @@
-# Teledeteccion
+# Procesamiento de imagenes satelitales en R
 # Introducción
 Esta página proporciona una breve introducción al análisis de datos satelitales con R. Antes de leer esto, primero debe aprender los conceptos básicos del paquete de ráster .
 
@@ -17,11 +17,17 @@ Existen numerosas fuentes de datos obtenidos por teledetección desde satélites
 Puede acceder a estos datos desde varias fuentes, incluyendo:
 
 http://earthexplorer.usgs.gov/
+
 https://lpdaacsvc.cr.usgs.gov/appeears/
+
 https://search.earthdata.nasa.gov/search
+
 https://lpdaac.usgs.gov/data_access/data_pool
+
 https://scihub.copernicus.eu/
+
 https://aws.amazon.com/public-data-sets/landsat/
+
 Este sitio web enumera 15 fuentes de datos de teledetección de libre acceso.
 
 Es posible descargar algunos datos satelitales usando R-packages. Puede usar el paquete MODIS o MODISTools para buscar, descargar y preprocesar diferentes productos MODIS .
